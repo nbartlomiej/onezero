@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings, TypeFamilies, QuasiQuotes, TemplateHaskell,
  MultiParamTypeClasses #-}
 
-module Yesno where
+module Main where
 
 import Yesod
 import Data.List
