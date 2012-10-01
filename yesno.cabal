@@ -1,0 +1,30 @@
+name:              yesno
+version:           0.1
+license:           MIT
+license-file:      LICENSE
+author:            Bartlomiej Niemtur
+maintainer:        Bartlomiej Niemtur
+category:          Web
+stability:         Experimental
+cabal-version:     >= 1.6
+build-type:        Simple
+homepage:          http://github.com/nbartlomiej/yesno
+
+Executable yesno
+  Main-is: Main.hs
+
+Library
+  build-depends: base            == 4.3.1.0
+               , text            == 0.11.1.13
+               , random          == 1.0.0.3
+               , wai-logger      == 0.1.4
+               , tls-extra       == 0.4.3
+               , tls             == 0.9.1
+               , yesod           == 0.10.2
+               , yesod-static    == 0.10.1
+               , yesod-default   == 0.6.1
+               , blaze-builder   == 0.3.1.0
+               , shakespeare-js  == 0.11.2
+               , shakespeare-css == 0.10.8
+               , hamlet          == 0.10.9.1
+               , wai-eventsource == 1.1.0.1
