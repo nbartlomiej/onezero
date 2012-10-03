@@ -31,8 +31,8 @@ getPort args = extractPort $ "-p" `elemIndex` args
         extractPort (Nothing) = 3100
 
 mkYesod "Yesno" [parseRoutes|
-/ HomeR GET
-/send  SendR POST
+/      HomeR    GET
+/send  SendR    POST
 /recv  ReceiveR GET
 |]
 
