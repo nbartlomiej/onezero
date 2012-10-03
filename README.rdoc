@@ -1,0 +1,15 @@
+=OneZero
+
+==About
+
+OneZero is a very simple application that shows how Haskell, Yesod and Server Events can work together.
+For a slightly more complex example, visit: http://github.com/nbartlomiej/tfoo .
+
+Live at: http://onezero.herokuapp.com
+
+Attention: Server Events are supported only in the following browsers: http://caniuse.com/eventsource .
+
+
+==License
+
+MIT, see LICENSE file.
