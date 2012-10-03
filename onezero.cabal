@@ -1,4 +1,4 @@
-name:              yesno
+name:              onezero
 version:           0.1
 license:           MIT
 license-file:      LICENSE
@@ -8,9 +8,9 @@ category:          Web
 stability:         Experimental
 cabal-version:     >= 1.6
 build-type:        Simple
-homepage:          http://github.com/nbartlomiej/yesno
+homepage:          http://github.com/nbartlomiej/onezero
 
-Executable yesno
+Executable onezero
   Main-is: Main.hs
 
 Library
